@@ -93,7 +93,7 @@ def boxLocation(mousePos):
             return (2,2)
 
 def screenMsg(text,size,center):
-    myfont = pygame.font.SysFont("Comic Sans MS",size)
+    myfont = pygame.font.SysFont("calibri",size)
     textSurface = myfont.render(text,True,(0,0,0))
     textRect = textSurface.get_rect()
     textRect.center = center
